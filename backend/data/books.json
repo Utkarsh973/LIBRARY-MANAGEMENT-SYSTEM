@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Wireless Headphones",
+        "description": "Noise-cancelling over-ear headphones with Bluetooth connectivity.",
+        "price": 99.99,
+        "stock": 50
+    },
+    {
+        "title": "Mechanical Keyboard",
+        "description": "RGB backlit mechanical keyboard with customizable keys.",
+        "price": 49.99,
+        "stock": 100
+    },
+    {
+        "title": "Gaming Mouse",
+        "description": "High-precision gaming mouse with 6 programmable buttons.",
+        "price": 29.99,
+        "stock": 150
+    },
+    {
+        "title": "4K Monitor",
+        "description": "27-inch 4K UHD monitor with HDR support and low blue light technology.",
+        "price": 299.99,
+        "stock": 20
+    },
+    {
+        "title": "USB-C Hub",
+        "description": "Multi-port USB-C hub with HDMI, Ethernet, and SD card support.",
+        "price": 24.99,
+        "stock": 75
+    },
+    {
+        "title": "External SSD",
+        "description": "1TB portable external SSD with USB 3.2 support.",
+        "price": 89.99,
+        "stock": 40
+    },
+    {
+        "title": "Smartwatch",
+        "description": "Fitness smartwatch with heart rate monitoring and GPS.",
+        "price": 149.99,
+        "stock": 30
+    },
+    {
+        "title": "Laptop Stand",
+        "description": "Adjustable aluminum laptop stand with cooling vents.",
+        "price": 19.99,
+        "stock": 120
+    }
+]
