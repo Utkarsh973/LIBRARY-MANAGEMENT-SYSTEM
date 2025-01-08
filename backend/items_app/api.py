@@ -1,9 +1,15 @@
 from ninja import NinjaAPI
+from ninja_extra import NinjaExtraAPI
+from ninja_jwt.controller import NinjaJWTDefaultController
+from items_app.controllers.user_controller import UserController
 from typing import List,Optional
 from items_app.models import Item
 from items_app.schemas import ItemSchema,NotFoundSchema
 
-api = NinjaAPI()
+api = NinjaExtraAPI()
+api.register_controllers(NinjaJWTDefaultController)
+
+api.register_controllers(UserController)
 
 @api.get("/books", response = List[ItemSchema])
 def books(request, title : Optional[str] = None):
