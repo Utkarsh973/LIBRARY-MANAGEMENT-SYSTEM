@@ -8,3 +8,8 @@ class ItemSchema(Schema):
     
 class NotFoundSchema(Schema):
     message : str
+    
+class RegisterSchema(Schema):
+    username: str
+    password: str
+    
